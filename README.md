@@ -13,3 +13,10 @@ We acquire the tool wear data through an automated process of taking images with
 The workpiece surface roughness is measured by a Keyence 3200.
 工件的表面粗糙度是由Keyence3200测量仪完成的。
 <img width="1042" height="587" alt="截屏2026-10-24 下午6 04 31" src="https://github.com/user-attachments/assets/f475a76b-fd4f-477c-95a6-9505fe6039cc" />
+We extracted 95 features from vibration and acoustic signals using time-domain statistics, FFT-based spectral analysis, and wavelet packet energy, then applied Neighborhood Component Analysis (NCA) to select informative features for prediction alongside cutting conditions. We developed a multi-input, multi-output artificial neural network (ANN) to simultaneously predict tool wear and workpiece surface roughness, jointly assessing machining condition and surface quality.
+本项目从振动与声学信号中提取时域统计量、FFT频域特征及小波包时频能量等 95项特征，通过邻域成分分析（NCA）筛选关键特征，并结合切削工况用于预测。我们构建了多输入、多输出人工神经网络（ANN），通过同一模型同时预测刀具磨损与工件表面粗糙度，实现加工状态和表面质量的联合评估。
+<img width="324" height="305" alt="截屏2026-10-24 下午6 21 46" src="https://github.com/user-attachments/assets/1b9ea1f0-36c6-4878-8201-9a9f44c9c423" />
+
+
+
+
